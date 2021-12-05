@@ -29,11 +29,17 @@ const gameOptions = [
         options: [
             {
                 text: "Option 1",
+                setState: {}
+                nextText: 2
             },
             {
                 text: "Option 2"
+                nextText: 2
             }
         ]
+    },
+    {
+        id: 2
     }
 ]
 
