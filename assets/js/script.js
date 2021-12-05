@@ -8,12 +8,13 @@ let state = {}
 function startGame() {
     // Starting the game and set the state and options to where it is supposed to be
     state = {}
-    showText(1)
+    showOptions(1)
 
 }
 
-function showText(textIndex) {
-
+function showOptions(optionsIndex) {
+    const textId = gameOptions.find(textId => textId.id === optionsIndex) 
+    console.log(textId);
 }
 
 function selectOption(option) {
