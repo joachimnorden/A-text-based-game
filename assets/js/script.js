@@ -13,6 +13,9 @@ function startGame() {
 }
 
 function showOptions(optionsIndex) {
+    // Get what gameOptions to show
+    // Push text to textElement
+    // Remove option buttons and only show if needed
     const textId = gameOptions.find(textId => textId.id === optionsIndex) 
     console.log(textId);
 }
