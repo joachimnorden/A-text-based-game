@@ -20,7 +20,9 @@ function selectOption(option) {
 
 }
 
-const textOptions = [
+// gameOptions is an array containing all the challanges and options for each challange
+// aswell as keeping track of the state
+const gameOptions = [
     {
         id: 1,
         text: "Lorem ipsum",
