@@ -18,6 +18,7 @@ function showOptions(optionsIndex) {
     // Remove option buttons and only show if needed
     const textId = gameOptions.find(textId => textId.id === optionsIndex) 
     console.log(textId);
+    textElement.innerText = textId.text
 }
 
 function selectOption(option) {
@@ -33,11 +34,11 @@ const gameOptions = [
         options: [
             {
                 text: "Option 1",
-                setState: {}
+                setState: {},
                 nextText: 2
             },
             {
-                text: "Option 2"
+                text: "Option 2",
                 nextText: 2
             }
         ]
