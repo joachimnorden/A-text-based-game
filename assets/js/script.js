@@ -19,6 +19,9 @@ function showOptions(optionsIndex) {
     const textId = gameOptions.find(textId => textId.id === optionsIndex) 
     console.log(textId);
     textElement.innerText = textId.text
+    while (optionElement.firstChild) {
+        optionElement.removeChild(optionElement.firstChild)
+    }
 }
 
 function selectOption(option) {
