@@ -28,7 +28,7 @@ function showOptions(optionsIndex) {
             const button = document.createElement('button')
             button.innerText = option.text
         }
-    }
+    })
 }
 
 // Will be added later, returns true for know
