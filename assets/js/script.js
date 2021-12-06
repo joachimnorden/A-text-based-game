@@ -27,6 +27,7 @@ function showOptions(optionsIndex) {
         if (showOptions(option)) {
             const button = document.createElement('button')
             button.innerText = option.text
+            button.classList.add('button')
         }
     })
 }
