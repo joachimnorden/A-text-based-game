@@ -31,6 +31,11 @@ function showOptions(optionsIndex) {
     }
 }
 
+// Will be added later, returns true for know
+function showOptions(option) {
+    return: true
+}
+
 function selectOption(option) {
 
 }
