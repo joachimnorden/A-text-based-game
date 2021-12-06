@@ -22,6 +22,13 @@ function showOptions(optionsIndex) {
     while (optionElement.firstChild) {
         optionElement.removeChild(optionElement.firstChild)
     }
+
+    textId.options.forEach(option => {
+        if (showOptions(option)) {
+            const button = document.createElement('button')
+            button.innerText = option.text
+        }
+    }
 }
 
 function selectOption(option) {
