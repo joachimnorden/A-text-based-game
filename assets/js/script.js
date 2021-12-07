@@ -51,7 +51,7 @@ const gameOptions = [
         options: [
             {
                 text: "Option 1",
-                setState: {},
+                setState: {sword: true},
                 nextText: 2
             },
             {
@@ -61,7 +61,21 @@ const gameOptions = [
         ]
     },
     {
-        id: 2
+        id: 2,
+        text: "Lorem ipsum two",
+        options: [
+            {
+                text: "Option 1",
+                requiredState: (currentState) => currentState.sword,
+                setState: {sword: false, goblet: true},
+                nextText: 3
+            },
+            {
+                text: "Run",
+                nextText: 3
+
+            }
+        ]
     }
 ]
 
