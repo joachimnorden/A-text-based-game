@@ -22,8 +22,8 @@ function showGameOptions(gameNodeIndex) {
         optionElement.removeChild(optionElement.firstChild)
     }
 
-    gameOptions.options.forEach(option => {
-        if (showOptions(option)) {
+    gameNode.options.forEach(option => {
+        if (showOption(option)) {
             const button = document.createElement('button')
             button.innerText = option.text
             button.classList.add('button')
@@ -33,8 +33,9 @@ function showGameOptions(gameNodeIndex) {
     })
 }
 
-// Will be added later, returns true for know
-function showOptions(option) {
+// Will be added later
+function showOption(option) {
+    return true
 }
 
 function selectOption(option) {
