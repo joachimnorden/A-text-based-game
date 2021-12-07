@@ -8,34 +8,33 @@ let state = {}
 function startGame() {
     // Starting the game and set the state and options to where it is supposed to be
     state = {}
-    showOptions(1)
+    showGameOptions(1)
 
 }
 
-function showOptions(optionsIndex) {
+function showGameOptions(gameNodeIndex) {
     // Get what gameOptions to show
     // Push text to textElement
     // Remove option buttons and only show if needed
-    const textId = gameOptions.find(textId => textId.id === optionsIndex) 
-    console.log(textId);
-    textElement.innerText = textId.text
+    const gameNode = gameOptions.find(gameNode => gameNode.id === gameNodeIndex) 
+    textElement.innerText = gameNode.text
     while (optionElement.firstChild) {
         optionElement.removeChild(optionElement.firstChild)
     }
 
-    textId.options.forEach(option => {
+    gameOptions.options.forEach(option => {
         if (showOptions(option)) {
             const button = document.createElement('button')
             button.innerText = option.text
             button.classList.add('button')
             button.addEventListener('click', () => selectOption(option))
+            optionElement.appendChild(button)
         }
     })
 }
 
 // Will be added later, returns true for know
 function showOptions(option) {
-    return: true
 }
 
 function selectOption(option) {
