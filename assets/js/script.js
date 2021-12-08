@@ -38,7 +38,12 @@ function showOption(option) {
 }
 
 function selectOption(option) {
-
+    const nextGameNodeId = option.nextText
+    if (nextGameNodeId <= 0) {
+        return startGame()
+    }
+    state = Object.assign(state, option.setState)
+    showGameOptions(nextGameNodeId)
 }
 
 // gameOptions is an array containing all the challanges and options for each challange
