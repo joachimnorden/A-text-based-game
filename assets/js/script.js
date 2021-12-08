@@ -60,7 +60,7 @@ const gameOptions = [
             },
             {
                 text: "Option 2",
-                nextText: 2
+                nextText: 3
             }
         ]
     },
@@ -77,6 +77,21 @@ const gameOptions = [
             {
                 text: "Run",
                 nextText: 3
+
+            }
+        ]
+    },
+    {
+        id: 3,
+        text: "Lorem ipsum three",
+        options: [
+            {
+                text: "Option 1",
+                nextText: -1
+            },
+            {
+                text: "Fly",
+                nextText: 4
 
             }
         ]
