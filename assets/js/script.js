@@ -33,9 +33,8 @@ function showGameOptions(gameNodeIndex) {
     })
 }
 
-// Will be added later
 function showOption(option) {
-    return true
+    return option.requiredState == null || option.requiredState(state)
 }
 
 function selectOption(option) {
