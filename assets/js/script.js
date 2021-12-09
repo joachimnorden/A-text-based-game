@@ -51,15 +51,15 @@ function selectOption(option) {
 const gameOptions = [
     {
         id: 1,
-        text: "Lorem ipsum",
+        text: "Where am i? I'm feeling dizzy :s I hear a dog bark, wonder what to do...",
         options: [
             {
-                text: "Option 1",
+                text: "Bark back",
                 setState: {sword: true},
                 nextText: 2
             },
             {
-                text: "Option 2",
+                text: "Ignore the bark",
                 nextText: 2
             }
         ]
