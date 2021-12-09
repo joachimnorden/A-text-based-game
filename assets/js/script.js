@@ -60,7 +60,7 @@ const gameOptions = [
             },
             {
                 text: "Option 2",
-                nextText: 3
+                nextText: 2
             }
         ]
     },
