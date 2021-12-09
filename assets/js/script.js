@@ -66,33 +66,76 @@ const gameOptions = [
     },
     {
         id: 2,
-        text: "Lorem ipsum two",
+        text: "Bow wow! Hmm... no response. Wonder who it was. This smell though, it feels familiar somehow. Could it be...",
         options: [
             {
-                text: "Option 1",
-                requiredState: (currentState) => currentState.sword,
-                setState: {sword: false, goblet: true},
+                text: "Follow the smell",
                 nextText: 3
             },
             {
-                text: "Run",
-                nextText: 3
-
+                text: "Run to the barking dog",
+                nextText: 4
             }
         ]
     },
     {
         id: 3,
-        text: "Lorem ipsum three",
+        text: "Sausages!!! My favorite food, just love everything about it",
         options: [
             {
-                text: "Option 1",
+                text: "Steal a sausage",
+                setState: {sausage: true},
+                nextText: 4
+            },
+            {
+                text: "Bark on the Sausage Man",
+                setState: {sausage: true},
+                nextText: 4
+            },
+            {
+                text: "Mark my territory",
+                nextText: -1
+            }
+        ]
+    },
+    {
+        id: 4,
+        text: "There is that bark again, it's so cute. Wonder who it is",
+        options: [
+            {
+                text: "Eat the sausage and follow the bark",
+                setState: {sausage: false},
+                nextText: 5
+            },
+            {
+                text: "Save the Sausage and follow the bark",
+                nextText: 5
+            }
+        ]
+    },
+    {
+        id: 5,
+        text: "Of course, it's Daisy! I've always had a crush on her.",
+        options: [
+            {
+                text: "Ask for directions to a nearby toilet",
                 nextText: -1
             },
             {
-                text: "Fly",
-                nextText: 4
-
+                text: "Ask for a date",
+                requiredState: (currentState) => currentState.sausage,
+                setState: {sausage: false},
+                nextText: 5
+            }
+        ]
+    },
+    {
+        id: 50,
+        text: "Oh no, the Sausage man didn't like that. He took me to the Dog center",
+        options: [
+            {
+                text: "Restart",
+                nextText: -1
             }
         ]
     }
