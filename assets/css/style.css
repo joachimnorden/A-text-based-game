@@ -17,9 +17,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#start-container {
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
 h1, h2, h3, h4 {
     font-size: 250%;
     font-weight: 700;
+    margin: 0;
 }
 
 img {
@@ -28,11 +36,12 @@ img {
 }
 
 
-.game-container {
+#game-container {
     width: 800px;
     max-width: 80%;
     text-align: center;
-    padding: 20px;
+    flex-direction: column;
+    gap: 70px;
 }
 
 
