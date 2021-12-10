@@ -59,8 +59,8 @@ const gameOptions = [
                 nextText: 2
             },
             {
-                text: "Ignore the bark",
-                nextText: 2
+                text: "Go to the bark",
+                nextText: 5
             }
         ]
     },
@@ -74,7 +74,7 @@ const gameOptions = [
             },
             {
                 text: "Run to the barking dog",
-                nextText: 4
+                nextText: 5
             }
         ]
     },
@@ -94,7 +94,7 @@ const gameOptions = [
             },
             {
                 text: "Mark my territory",
-                nextText: -1
+                nextText: 50
             }
         ]
     },
@@ -119,19 +119,53 @@ const gameOptions = [
         options: [
             {
                 text: "Ask for directions to a nearby toilet",
-                nextText: -1
+                nextText: 51
+            },
+            {
+                text: "Share Sausage and ask for a date",
+                requiredState: (currentState) => currentState.sausage,
+                setState: {sausage: false},
+                nextText: 6
             },
             {
                 text: "Ask for a date",
-                requiredState: (currentState) => currentState.sausage,
-                setState: {sausage: false},
                 nextText: 5
             }
         ]
     },
     {
+        id: 6,
+        text: "I wouldn't never thought she would say yes to a date with me. Must have been the power of the sausage",
+        options: [
+            {
+                text: "Go to the date",
+                nextText: 7
+            }
+        ]
+    },
+    {
+    id: 7,
+    text: "What a nice date. And at the dog daycare. They will help me get home safe tonight.",
+    options: [
+        {
+            text: "Well done, wanna play again?",
+            nextText: -1
+        }
+    ]
+    },
+    {
         id: 50,
         text: "Oh no, the Sausage man didn't like that. He took me to the Dog center",
+        options: [
+            {
+                text: "Restart",
+                nextText: -1
+            }
+        ]
+    },
+    {
+        id: 51,
+        text: "Oh no, she took me to the Dog center",
         options: [
             {
                 text: "Restart",
