@@ -45,19 +45,22 @@ img {
     gap: 70px;
 }
 
-
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
 
 /* 3D effect on button inspired by https://codepen.io/kathykato/pen/gOOjgmPa */
 .button {
     font-weight: 700;
     font-size: 18px;
     color: #fff;
-    padding: 0.75em 1em;
+    padding: 1em 1em;
     background: #66ccff;
     border-radius: 0.75em;
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
-    margin: 10px;
 }
 
 .button::before {

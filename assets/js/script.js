@@ -11,8 +11,8 @@ function startGame() {
     let gameContainer = document.getElementById('game-container');
     startContainer.style.display = "none";
     gameContainer.style.display = "flex";
-    state = {}
-    showGameOptions(1)
+    state = {};
+    showGameOptions(1);
 
 }
 
@@ -20,34 +20,34 @@ function showGameOptions(gameNodeIndex) {
     // Get what gameOptions to show
     // Push text to textElement
     // Remove option buttons and only show if needed
-    const gameNode = gameOptions.find(gameNode => gameNode.id === gameNodeIndex) 
-    textElement.innerText = gameNode.text
+    const gameNode = gameOptions.find(gameNode => gameNode.id === gameNodeIndex);
+    textElement.innerText = gameNode.text;
     while (optionElement.firstChild) {
-        optionElement.removeChild(optionElement.firstChild)
+        optionElement.removeChild(optionElement.firstChild);
     }
 
     gameNode.options.forEach(option => {
         if (showOption(option)) {
-            const button = document.createElement('button')
-            button.innerText = option.text
-            button.classList.add('button')
-            button.addEventListener('click', () => selectOption(option))
-            optionElement.appendChild(button)
+            const button = document.createElement('button');
+            button.innerText = option.text;
+            button.classList.add('button');
+            button.addEventListener('click', () => selectOption(option));
+            optionElement.appendChild(button);
         }
-    })
+    });
 }
 
 function showOption(option) {
-    return option.requiredState == null || option.requiredState(state)
+    return option.requiredState == null || option.requiredState(state);
 }
 
 function selectOption(option) {
-    const nextGameNodeId = option.nextText
+    const nextGameNodeId = option.nextText;
     if (nextGameNodeId <= 0) {
-        return startGame()
+        return startGame();
     }
-    state = Object.assign(state, option.setState)
-    showGameOptions(nextGameNodeId)
+    state = Object.assign(state, option.setState);
+    showGameOptions(nextGameNodeId);
 }
 
 // gameOptions is an array containing all the challanges and options for each challange
@@ -187,4 +187,4 @@ const gameOptions = [
             }
         ]
     }
-]
+];
