@@ -10,7 +10,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     color: #fff;
-    background: #1d1d1d;
+    background: #4a4a4a;
 }
 
 body {
@@ -68,7 +68,6 @@ img {
     bottom: 0;
     background: #66aaff;
     border-radius: inherit;
-    box-shadow: 0 0.625em 0 0 #cfe6df;
     transform: translate3d(0, 0.75em, -1em);
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
 }
@@ -79,7 +78,6 @@ img {
 }
 
 .button:hover::before {
-    box-shadow: 0 0.5em 0 0 #cfe6df;
     transform: translate3d(0, 0.5em, -1em);
 }
 
@@ -90,7 +88,6 @@ img {
 }
 
 .button:active::before {
-        box-shadow: 0 0 #cfe6df;
         transform: translate3d(0, 0, -1em);
 }
 
@@ -101,22 +98,13 @@ img {
 #start-button::before {
 
     background: #cc527b;
-    box-shadow: 0 0.625em 0 0 #cfe6df;
 }
     
 #start-button:hover {
-      background: #f8637c;
-}
-
-#start-button:hover::before {
-    box-shadow: 0 0.5em 0 0 #cfe6df;
+    background: #f8637c;
 }
 
 
 #start-button:active {
     background: #f8637c;
-}
-
-#start-button:active::before {
-        box-shadow: 0 0 #cfe6df;
-}
+}x
