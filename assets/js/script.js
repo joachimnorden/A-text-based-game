@@ -2,6 +2,7 @@
 const textElement = document.getElementById('game-text');
 const optionElement = document.getElementById('game-options');
 
+
 // the state variable will keep track on the inventory
 let state = {};
 
@@ -49,6 +50,7 @@ function selectOption(option) {
     state = Object.assign(state, option.setState);
     showGameOptions(nextGameNodeId);
 }
+
 
 // gameOptions is an array containing all the challanges and options for each challange
 // aswell as keeping track of the state

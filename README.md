@@ -1,108 +1,345 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">A Dog Story</h1>
 
-Welcome joachimnorden,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the live project here.](https://joachimnorden.github.io/product-landingpage/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+This is a text-based game made with simple Javascript, CSS and HTML. Users can select only one option. If you select wrong option you loose and have to restart the story.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+If you choose the right option the game continues until you lose or win. Good luck :)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/responsive-image-product-page.PNG"></h2>
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+-   ### User stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+    -   #### First Time Visitor Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the product.
 
-------
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find details about the product.
 
-## Release History
+        3. As a First Time Visitor, I want to know if it's available to buy the product
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    -   #### Returning Visitor Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+        1. As a Returning Visitor, I want to easily find the buy button.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+        2. As a Returning Visitor, I want to find community links.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    -   #### Frequent Visitor Goals
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+        1. As a Frequent Visitor, I want to easily see if new colors been added.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   ### Design
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    -   #### Colour Scheme
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        -   The two main colours used are Black and pink. With a green CTA color.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    -   #### Typography
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+        -   The Roboto font is the main font for paragraphs and used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in  programming, so it is both attractive and appropriate.
+        
+        -   The Bebas Neue is the main font for headlines with Cursive as the fallback.
 
-------
+    -   #### Imagery
 
-## FAQ about the uptime script
+        -   Imagery is important. The imagery is there to inspire, show details about the product and showing the product in real-life scenarios.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+*   ### Wireframes
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    -   Landing page Desktop Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Product%20landing%20page.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    -   Landing page Mobile Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Product%20landing%20page-mobile.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    -   Form Page Desktop Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Form-desktop.png)
 
-**So….?**
+    -   Form Page Mobile Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Form-mobile.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## Features
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+
+-   Responsive on all device sizes
+
+
+## Technologies Used
+
+
+### Languages Used
+
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+
+### Frameworks, Libraries & Programs Used
+
+
+
+1. [Google Fonts:](https://fonts.google.com/)
+
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+
+2. [Font Awesome:](https://fontawesome.com/)
+
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+
+3. [Git](https://git-scm.com/)
+
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+4. [GitHub:](https://github.com/)
+
+    - GitHub is used to store the projects code after being pushed from Git.
+
+5. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+
+    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+
+6. [Balsamiq:](https://balsamiq.com/)
+
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
+## Testing
+
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+
+-   HTML
+
+     - No errors were returned when passing through the official W3C validator
+
+-   CSS
+
+     - No errors were returned when passing through the official W3C validator
+
+- Accessibility
+
+    - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
+
+<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-landing-page.PNG"></h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-form-page.PNG"></h2>
+
+
+
+### Testing User Stories from User Experience (UX) Section
+
+
+-   #### First Time Visitor Goals
+
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the product.
+
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Pre-order" Call to action button.
+
+        2. The main points are made immediately with the hero image
+
+        3. The user can scroll down to learn more about the product.
+
+        4. The navigation bar is fixed on top and will always be available for easy navigation
+
+
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find details about the product.
+
+
+        1. The navigation bar is fixed on top and will always be available for easy navigation.
+
+        2. On the Form Page, there is a back button to make sure the user doesn't feel trapped.
+
+
+    3. As a First Time Visitor, I want to know if it's available to buy the product
+
+        1. The navigation bar is fixed on top and have a CTA to the pre-order form page
+
+
+
+-   #### Returning Visitor Goals
+
+
+    1. As a Returning Visitor, I want to easily find the buy button.
+
+
+        1. The navigation bar is fixed on top and have a CTA to the pre-order form page
+
+        2. Upon entering the site there is a Hero Image with Text and a "Pre-order" Call to action button.
+
+
+    2. As a Returning Visitor, I want to find community links.
+
+
+        1. The social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on each page.
+
+-   ### Frequent Visitor Goals
+
+    1. As a Frequent Visitor, I want to easily see if new colors been added.
+
+        1. The navigation bar is fixed on top and have a link to color section.
+
+
+
+
+### Further Testing
+
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+
+### Known Bugs
+
+
+-   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+
+    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+
+        - Fixed
+
+-   The mobile footer on form page have a large white gap above it.
+
+- Submit button miss some styling on iPhone on form page.
+
+- Hero content as above fold on Internet Explorer
+
+- After form submission you're redirected to a Code Institute Thank you page.
+
+## Deployment
+
+
+### GitHub Pages
+
+
+The project was deployed to GitHub Pages using the following steps...
+
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+
+5. The page will automatically refresh.
+
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+
+### Forking the GitHub Repository
+
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+### Making a Local Clone
+
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. Under the repository name, click "Clone or download".
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
+4. Open Git Bash
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 ```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+7. Press Enter. Your local clone will be created.
 
----
 
-Happy coding!
+```
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+> Cloning into `CI-Clone`...
+
+> remote: Counting objects: 10, done.
+
+> remote: Compressing objects: 100% (8/8), done.
+
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+
+> Unpacking objects: 100% (10/10), done.
+
+```
+
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
+## Credits
+
+
+### Code
+
+
+-   The navigation bar came for the follow post [W3 school post](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+
+-   The footer bar was inspired by Code Instutite Love Running Project.
+
+
+
+### Content
+
+
+-   Inspiration for table data was found [here](https://mynewmicrophone.com/full-list-headphone-earphone-specifications-w-examples/)
+
+
+
+
+### Media
+
+
+-   The images used for the page were taken from [here](https://www.pexels.com/).
+
+
+### Acknowledgements
+
+
+-   My Mentor for continuous helpful feedback.
+
+
+-   Tutor support at Code Institute for their support.
