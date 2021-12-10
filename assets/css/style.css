@@ -1,5 +1,5 @@
 /* Google fonts import, Roboto and VT3223 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
 
 html, body {
     padding: 0;
@@ -11,10 +11,11 @@ html, body {
     height: 100vh;
     color: #fff;
     background: #4a4a4a;
+    font-size: 18px;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
 }
 
 #start-container {
@@ -48,9 +49,10 @@ img {
 
 /* 3D effect on button inspired by https://codepen.io/kathykato/pen/gOOjgmPa */
 .button {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 18px;
     color: #fff;
-    padding: 1.25em 2em;
+    padding: 0.75em 1em;
     background: #66ccff;
     border-radius: 0.75em;
     transform-style: preserve-3d;
