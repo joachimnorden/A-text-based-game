@@ -1,12 +1,16 @@
 // Get the text and button elements
-const textElement = document.getElementById('game-text')
-const optionElement = document.getElementById('game-options')
+const textElement = document.getElementById('game-text');
+const optionElement = document.getElementById('game-options');
 
 // the state variable will keep track on the inventory
 let state = {}
 
 function startGame() {
     // Starting the game and set the state and options to where it is supposed to be
+    let startContainer = document.getElementById('start-container');
+    let gameContainer = document.getElementById('game-container');
+    startContainer.style.display = "none";
+    gameContainer.style.display = "block";
     state = {}
     showGameOptions(1)
 
@@ -184,5 +188,3 @@ const gameOptions = [
         ]
     }
 ]
-
-startGame()
