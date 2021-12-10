@@ -129,7 +129,7 @@ const gameOptions = [
             },
             {
                 text: "Ask for a date",
-                nextText: 5
+                nextText: 49
             }
         ]
     },
@@ -144,14 +144,24 @@ const gameOptions = [
         ]
     },
     {
-    id: 7,
-    text: "What a nice date. And at the dog daycare. They will help me get home safe tonight.",
-    options: [
-        {
-            text: "Well done, wanna play again?",
-            nextText: -1
-        }
-    ]
+        id: 7,
+        text: "What a nice date. And at the dog daycare. They will help me get home safe tonight.",
+        options: [
+            {
+                text: "Well done, wanna play again?",
+                nextText: -1
+            }
+        ]
+    },
+    {
+        id: 49,
+        text: "That date didn't go so well. Wonder what I did wrong.",
+        options: [
+            {
+                text: "Restart",
+                nextText: -1
+            }
+        ]
     },
     {
         id: 50,
