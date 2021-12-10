@@ -79,8 +79,8 @@ img {
 }
     
 .button:hover {
-      background: #55aaff;
-      transform: translate(0, 0.25em);
+    background: #55aaff;
+    transform: translate(0, 0.25em);
 }
 
 .button:hover::before {
