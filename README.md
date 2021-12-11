@@ -64,7 +64,7 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 ### Gamescreen
 
-<h2 align="left"><img src="assets/images/gamescreen-live.png" width="210"></h2>
+<h2 align="center"><img src="assets/images/gamescreen-live.png"></h2>
 
 -   As a text-based game I wanted to keep it simple. A white text on a dark background to really keep focus on the text itself and big clear button with a 3D-effect that wants to be clicked. 
 
@@ -254,7 +254,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   This post helped me with some flexbox issues I had [Stackoverflow](https://stackoverflow.com/questions/35578404/giving-wrapped-flexbox-items-vertical-spacing/35578723)
 
-
+-   Got some good tips from Web Dev Simplified on [YouTube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
 
 ### Content
 
