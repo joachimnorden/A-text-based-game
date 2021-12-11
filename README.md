@@ -1,7 +1,7 @@
 <h1 align="center">A Dog Story</h1>
 
 
-[View the live project here.](https://joachimnorden.github.io/product-landingpage/)
+[View the live project here.](https://joachimnorden.github.io/A-text-based-game/)
 
 
 This is a text-based game made with simple Javascript, CSS and HTML. Users can select only one option. If you select wrong option you loose and have to restart the story.
@@ -9,7 +9,7 @@ This is a text-based game made with simple Javascript, CSS and HTML. Users can s
 If you choose the right option the game continues until you lose or win. Good luck :)
 
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/responsive-image-product-page.PNG"></h2>
+<h2 align="center"><img src="assets/images/ami-responsive-a-dog-story.png"></h2>
 
 
 ## User Experience (UX)
@@ -44,9 +44,11 @@ If you choose the right option the game continues until you lose or win. Good lu
 *   ### Wireframes
 
 
-    -   Start screen Mobile Wireframe - [View](assets/images/Startscreen.png)
+    -   Start screen Mobile Wireframe
+    <h2 align="center"><img src="assets/images/Startscreen.png"></h2>
 
-    -   Game screen Mobile Wireframe - [View](assets/images/Gamescreen.png)
+    -   Game screen Mobile Wireframe
+    <h2 align="center"><img src="assets/images/Gamescreen.png"></h2>
 
 
 ## Features
@@ -56,7 +58,24 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 ### Startscreen
 
+<h2 align="center"><img src="assets/images/startscreen-live.png"></h2>
+
+-   There to create some uniqueness to the game and to easily start the game with a big CTA.
+
 ### Gamescreen
+
+<h2 align="center"><img src="assets/images/gamescreen-live.png"></h2>
+
+-   As a text-based game I wanted to keep it simple. A white text on a dark background to really keep focus on the text itself and big clear button with a 3D-effect that wants to be clicked. 
+
+
+## Features to be added
+
+-   A longer and updated story is in the making
+
+-   A clicktracker to compete with friends and family who is the fastest.
+
+-   Make the inventory visible in the gamescreen
 
 
 ## Technologies Used
@@ -124,7 +143,6 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
     - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
 
 <h2 align="center"><img src="assets/images/lighthouse-a-dog-story.png"></h2>
-
 
 
 
