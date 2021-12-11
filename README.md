@@ -58,13 +58,13 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 ### Startscreen
 
-<h2 align="center"><img src="assets/images/startscreen-live.png"></h2>
+<h2 align="left"><img src="assets/images/startscreen-live.png" width="210"></h2>
 
 -   There to create some uniqueness to the game and to easily start the game with a big CTA.
 
 ### Gamescreen
 
-<h2 align="center"><img src="assets/images/gamescreen-live.png"></h2>
+<h2 align="left"><img src="assets/images/gamescreen-live.png" width="210"></h2>
 
 -   As a text-based game I wanted to keep it simple. A white text on a dark background to really keep focus on the text itself and big clear button with a 3D-effect that wants to be clicked. 
 
@@ -153,27 +153,13 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
--   A large amount of testing was done to ensure that all pages were linking correctly.
-
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 
 ### Known Bugs
 
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
-
-        - Fixed
-
--   The mobile footer on form page have a large white gap above it.
-
-- Submit button miss some styling on iPhone on form page.
-
-- Hero content as above fold on Internet Explorer
-
-- After form submission you're redirected to a Code Institute Thank you page.
+-   The game doesn't work on Internet Explorer
 
 ## Deployment
 
@@ -184,11 +170,9 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
 The project was deployed to GitHub Pages using the following steps...
 
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/joachimnorden/A-text-based-game)
 
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 
@@ -196,7 +180,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 5. The page will automatically refresh.
 
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
 
 
 ### Forking the GitHub Repository
@@ -205,7 +189,7 @@ The project was deployed to GitHub Pages using the following steps...
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/joachimnorden/A-text-based-game)
 
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 
@@ -215,7 +199,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ### Making a Local Clone
 
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/joachimnorden/A-text-based-game)
 
 2. Under the repository name, click "Clone or download".
 
