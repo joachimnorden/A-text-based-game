@@ -254,7 +254,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   This post helped me with some flexbox issues I had [Stackoverflow](https://stackoverflow.com/questions/35578404/giving-wrapped-flexbox-items-vertical-spacing/35578723)
 
--   Got some good tips from Web Dev Simplified on [YouTube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
+-   Web Dev Simplified had some good tutorials on how to build JavaScript games that helped me [YouTube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
 
 ### Content
 
