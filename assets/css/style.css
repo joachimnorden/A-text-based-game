@@ -87,16 +87,6 @@ img {
     transform: translate3d(0, 0.5em, -1em);
 }
 
-
-/* .button:active {
-    background: #55aaff;
-    transform: translate(0em, 0.75em);
-} */
-
-/* .button:active::before {
-        transform: translate3d(0, 0, -1em);
-} */
-
 #start-button {
     background: #ff6680;
 }
@@ -109,8 +99,3 @@ img {
 #start-button:hover {
     background: #f8637c;
 }
-
-
-/* #start-button:active {
-    background: #f8637c;
-} */
