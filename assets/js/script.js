@@ -106,7 +106,7 @@ const gameOptions = [
     },
     {
         id: 4,
-        text: "There is that bark again, it's so cute. Wonder who it is",
+        text: "I got my Sausage, yummy! And there is that bark again, it's so cute. Wonder who it is",
         options: [
             {
                 text: "Eat the sausage and follow the bark",
