@@ -45,10 +45,10 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 
     -   Start screen Mobile Wireframe
-    <h2 align="center"><img src="assets/images/Startscreen.png"></h2>
+    <h2 align="left"><img src="assets/images/Startscreen.png" width="210"></h2>
 
     -   Game screen Mobile Wireframe
-    <h2 align="center"><img src="assets/images/Gamescreen.png"></h2>
+    <h2 align="left"><img src="assets/images/Gamescreen.png" width="210"></h2>
 
 
 ## Features
@@ -58,7 +58,7 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 ### Startscreen
 
-<h2 align="left"><img src="assets/images/startscreen-live.png" width="210"></h2>
+<h2 align="center"><img src="assets/images/startscreen-live.png"></h2>
 
 -   There to create some uniqueness to the game and to easily start the game with a big CTA.
 
