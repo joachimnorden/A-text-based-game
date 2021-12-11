@@ -20,25 +20,8 @@ If you choose the right option the game continues until you lose or win. Good lu
 
     -   #### First Time Visitor Goals
 
+        - I want it to be easy to start the game and begin my journey.
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the product.
-
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find details about the product.
-
-        3. As a First Time Visitor, I want to know if it's available to buy the product
-
-
-    -   #### Returning Visitor Goals
-
-
-        1. As a Returning Visitor, I want to easily find the buy button.
-
-        2. As a Returning Visitor, I want to find community links.
-
-
-    -   #### Frequent Visitor Goals
-
-        1. As a Frequent Visitor, I want to easily see if new colors been added.
 
 
 
@@ -46,35 +29,34 @@ If you choose the right option the game continues until you lose or win. Good lu
 
     -   #### Colour Scheme
 
-        -   The two main colours used are Black and pink. With a green CTA color.
+        -   The grey background is meant to set the mood and make the text pop a bit more since it's a text-based game. The main colors used is blue and pink. Pink is for the main CTA that stands out from the rest. The blue is for the game options and the icon.
 
     -   #### Typography
 
-        -   The Roboto font is the main font for paragraphs and used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in  programming, so it is both attractive and appropriate.
+        -   The Readex Pro is the main font for this application with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. I felt like the Readex Pro had some playfulness that fit the game well and it is always used with Bold to make it stand out from the background. 
         
-        -   The Bebas Neue is the main font for headlines with Cursive as the fallback.
 
     -   #### Imagery
 
-        -   Imagery is important. The imagery is there to inspire, show details about the product and showing the product in real-life scenarios.
+        -   The imagery is there to create a uniqueness on the start screen. But I didn't want it to distract the text when playing the game so it's not used inside the game itself.
 
 
 *   ### Wireframes
 
 
-    -   Landing page Desktop Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Product%20landing%20page.png)
+    -   Start screen Mobile Wireframe - [View](assets/images/Startscreen.png)
 
-    -   Landing page Mobile Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Product%20landing%20page-mobile.png)
-
-    -   Form Page Desktop Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Form-desktop.png)
-
-    -   Form Page Mobile Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Form-mobile.png)
+    -   Game screen Mobile Wireframe - [View](assets/images/Gamescreen.png)
 
 
 ## Features
 
 
--   Responsive on all device sizes
+-   It's made with mobile usage in mind. But it works well on all devices.
+
+### Startscreen
+
+### Gamescreen
 
 
 ## Technologies Used
@@ -87,6 +69,8 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
+-   [Javscript](https://www.javascript.com/)
+
 
 ### Frameworks, Libraries & Programs Used
 
@@ -94,34 +78,33 @@ If you choose the right option the game continues until you lose or win. Good lu
 
 1. [Google Fonts:](https://fonts.google.com/)
 
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-
-2. [Font Awesome:](https://fontawesome.com/)
-
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Google fonts were used to import the 'Readex Pro' font into the style.css file which is used on all pages throughout the project.
 
 
-3. [Git](https://git-scm.com/)
+2. [Git](https://git-scm.com/)
 
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-4. [GitHub:](https://github.com/)
+3. [GitHub:](https://github.com/)
 
     - GitHub is used to store the projects code after being pushed from Git.
 
-5. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+4. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
 
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - Photoshop was used to edit the logo.
 
 6. [Balsamiq:](https://balsamiq.com/)
 
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 
+7. [Pythontutor](https://pythontutor.com/)
+
+    - Pythontutor helped me troughout and was a good tool to have when you got stuck.
 
 ## Testing
 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 
 -   HTML
@@ -132,73 +115,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
      - No errors were returned when passing through the official W3C validator
 
+-   Javascript
+
+    - No major errors were returned when passing through the JSHint validator.
+
 - Accessibility
 
     - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-landing-page.PNG"></h2>
-<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-form-page.PNG"></h2>
-
-
-
-### Testing User Stories from User Experience (UX) Section
-
-
--   #### First Time Visitor Goals
-
-
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the product.
-
-
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Pre-order" Call to action button.
-
-        2. The main points are made immediately with the hero image
-
-        3. The user can scroll down to learn more about the product.
-
-        4. The navigation bar is fixed on top and will always be available for easy navigation
-
-
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find details about the product.
-
-
-        1. The navigation bar is fixed on top and will always be available for easy navigation.
-
-        2. On the Form Page, there is a back button to make sure the user doesn't feel trapped.
-
-
-    3. As a First Time Visitor, I want to know if it's available to buy the product
-
-        1. The navigation bar is fixed on top and have a CTA to the pre-order form page
-
-
-
--   #### Returning Visitor Goals
-
-
-    1. As a Returning Visitor, I want to easily find the buy button.
-
-
-        1. The navigation bar is fixed on top and have a CTA to the pre-order form page
-
-        2. Upon entering the site there is a Hero Image with Text and a "Pre-order" Call to action button.
-
-
-    2. As a Returning Visitor, I want to find community links.
-
-
-        1. The social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on each page.
-
--   ### Frequent Visitor Goals
-
-    1. As a Frequent Visitor, I want to easily see if new colors been added.
-
-        1. The navigation bar is fixed on top and have a link to color section.
+<h2 align="center"><img src="assets/images/lighthouse-a-dog-story.png"></h2>
 
 
 
 
-### Further Testing
+### Testing
 
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -316,30 +246,31 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 
--   The navigation bar came for the follow post [W3 school post](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+-   The game "engine" was inspired by this [codepen](https://codepen.io/rzim2082/pen/jrWYJW)
 
--   The footer bar was inspired by Code Instutite Love Running Project.
+-   The buttons was inspired by this [codepen](https://codepen.io/kathykato/pen/gOOjgmPa)
+
+-   This post helped me with some flexbox issues I had [Stackoverflow](https://stackoverflow.com/questions/35578404/giving-wrapped-flexbox-items-vertical-spacing/35578723)
 
 
 
 ### Content
 
 
--   Inspiration for table data was found [here](https://mynewmicrophone.com/full-list-headphone-earphone-specifications-w-examples/)
-
+-   I wanna thank my physical post-it notes to help me keep track of the story.
 
 
 
 ### Media
 
 
--   The images used for the page were taken from [here](https://www.pexels.com/).
+-   The icon used were taken from [here](https://pixabay.com/vectors/paw-print-dog-cat-animal-pet-5892565/).
 
 
 ### Acknowledgements
 
 
--   My Mentor for continuous helpful feedback.
+-   My Partner for helping me with the story.
 
 
 -   Tutor support at Code Institute for their support.

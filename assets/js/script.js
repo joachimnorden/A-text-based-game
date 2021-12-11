@@ -1,4 +1,4 @@
-// Get the text and button elements
+// Get the text and button elements from ID in the html
 const textElement = document.getElementById('game-text');
 const optionElement = document.getElementById('game-options');
 
@@ -18,9 +18,9 @@ function startGame() {
 }
 
 function showGameOptions(gameNodeIndex) {
-    // Get what gameOptions to show
-    // Push text to textElement
-    // Remove option buttons and only show if needed
+    // Get what gameOptions id to show
+    // Push text to textElement variable
+    // Remove option buttons initially and only show options from the active gameOptions ID.
     const gameNode = gameOptions.find(gameNode => gameNode.id === gameNodeIndex);
     textElement.innerText = gameNode.text;
     while (optionElement.firstChild) {
@@ -39,10 +39,14 @@ function showGameOptions(gameNodeIndex) {
 }
 
 function showOption(option) {
+    // Check if there is a requiredState object 
     return option.requiredState == null || option.requiredState(state);
 }
 
 function selectOption(option) {
+    // Get the nextText id
+    // If it's 0 or less we will restart the game
+    // Get the state and replace if another setState is available
     const nextGameNodeId = option.nextText;
     if (nextGameNodeId <= 0) {
         return startGame();
